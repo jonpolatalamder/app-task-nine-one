@@ -1,0 +1,119 @@
+.tasty {
+  margin-top: 143px;
+
+  .tasty-title {
+    font-weight: 600;
+    font-size: 48px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  .tasty-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    width: 706px;
+    margin: 0 auto;
+  }
+
+  .tasty-body {
+    margin-top: 66px;
+    display: flex;
+    gap: 40px;
+
+    .tasty-one {
+      width: 410px;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: center;
+      height: 434px;
+      border-radius: 30px;
+      background-image: linear-gradient(
+        rgba(231, 249, 253, 0),
+        rgba(231, 249, 253, 1)
+      );
+      padding: 16px 26px;
+
+      .to-top {
+        position: relative;
+
+        .content-tasty {
+          width: 368px;
+          height: 250px;
+          object-fit: contain;
+        }
+
+        .yurakcha-div {
+          width: 48px;
+          height: 48px;
+          border-radius: 50%;
+          background-color: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          top: 20px;
+          right: 20px;
+
+          .yurakcha {
+            width: 20px;
+            height: 18px;
+            object-fit: contain;
+          }
+        }
+      }
+
+      .to-title {
+        font-weight: 600;
+        font-size: 24px;
+        color: #000;
+        margin-top: 24px;
+      }
+
+      .button-order-tasty {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+
+        .button-order-tasty {
+          display: flex;
+          flex-direction: row;
+          align-items: start;
+          justify-content: start;
+          background-color: inherit;
+          gap: 24px;
+
+          width: 157px;
+          height: 24px;
+
+          img {
+            width: 24px;
+            height: 24px;
+            object-fit: cover;
+          }
+
+          h2 {
+            font-size: 14px;
+            font-weight: 500;
+            color: rgba(0, 0, 0, 0.6);
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+
+    // .tasty-one{
+    //   img{
+
+    //   }
+    // }
+  }
+}
+
+.margin-top-for {
+  margin-top: 180px;
+}

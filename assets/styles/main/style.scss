@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+@import "../variable/mixins";
+@import "../variable/variables";
+
+@import "../utils/navbar";
+@import "../utils/main-page";
+@import "../utils/categories";
+@import "../utils/tasty";
+@import "../utils/everyone-chef";
+@import "../utils/check-insta";
+@import "../utils/recipe";
+@import "../utils/inbox";
+@import "../utils/footer";

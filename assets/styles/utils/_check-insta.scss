@@ -1,0 +1,259 @@
+.check-insta {
+  margin-top: 160px;
+  background-image: linear-gradient(
+    rgba(231, 249, 253, 0),
+    rgba(231, 249, 253, 1)
+  );
+  height: 964px;
+
+  .chi-container {
+    padding: 80px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .chi-title {
+      text-align: center;
+      font-weight: 600;
+      font-size: 48px;
+      color: rgba(0, 0, 0, 1);
+      margin-bottom: 24px;
+    }
+
+    .chi-text {
+      font-weight: 400;
+      font-size: 16px;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.6);
+      width: 840px;
+      margin-bottom: 80px;
+    }
+
+    .i-div-cont {
+      display: flex;
+      gap: 40px;
+      margin-bottom: 80px;
+
+      .idc-item {
+        width: 290px;
+        height: 460px;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+
+        .idci-header {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          width: 290px;
+          height: 42px;
+          background-color: rgba(255, 255, 255, 1);
+
+          .idcih-left {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: start;
+            padding: 8px;
+            gap: 8px;
+
+            .logo-insta {
+              width: 24px;
+              height: 24px;
+              object-fit: contain;
+            }
+
+            .idcih-text {
+              margin-top: 5px;
+
+              .idcit-text {
+                height: 14px;
+
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+
+                .idcitt-h2 {
+                  font-weight: 600;
+                  font-size: 10px;
+                  color: rgba(38, 38, 38, 1);
+                  margin-top: 7px;
+                }
+
+                .check-official {
+                  width: 7px;
+                  height: 7px;
+                }
+              }
+
+              .idciht-h3 {
+                font-weight: 400;
+                font-size: 9px;
+                color: rgba(38, 38, 38, 1);
+              }
+            }
+          }
+
+          .idcih-right {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 2px;
+            padding: 8px;
+            border: none;
+            background-color: inherit;
+
+            .insta-point-h {
+              width: 3px;
+              height: 3px;
+              background-color: rgba(216, 216, 216, 1);
+              border-radius: 50%;
+            }
+          }
+        }
+
+        .idci-body {
+          width: 290px;
+          height: 290px;
+          position: relative;
+
+          .idcib-img {
+            width: 290px;
+            height: 290px;
+            object-fit: contain;
+          }
+
+          .count-idci {
+            width: 26px;
+            height: 20px;
+            border-radius: 10px;
+            justify-content: center;
+            text-align: center;
+            background-color: rgba(18, 18, 18, 0.7);
+            position: absolute;
+            top: 10px;
+            right: 10px;
+
+            .idcib-t {
+              font-size: 9px;
+              font-weight: 400;
+              align-items: center;
+              color: #fff;
+              margin: 0 auto;
+            }
+          }
+        }
+
+        .idci-footer {
+          display: flex;
+          flex-direction: column;
+          padding: 10px;
+
+          .idcif-header {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+
+            .idcifh-left {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: center;
+              gap: 8px;
+
+              img {
+                width: 17px;
+                height: 17px;
+                object-fit: contain;
+              }
+            }
+
+            .idcifh-middle {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: center;
+              gap: 3px;
+              margin-right: 20px;
+
+              div {
+                width: 5px;
+                height: 5px;
+                background-color: rgba(0, 0, 0, 0.15);
+                border-radius: 50%;
+              }
+            }
+
+            .idcifh-right {
+              img {
+                width: 16px;
+                height: 16px;
+              }
+            }
+          }
+
+          .idcif-main {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: start;
+            gap: 5px;
+
+            img {
+              width: 14px;
+              height: 14px;
+              object-fit: contain;
+            }
+
+            h4 {
+              font-weight: 400;
+              font-size: 10px;
+              color: rgba(38, 38, 38, 1);
+              margin-top: 8px;
+            }
+          }
+
+          .idcif-body {
+            font-weight: 600;
+            font-size: 10px;
+            color: rgba(38, 38, 38, 1);
+          }
+
+          .idcif-footer {
+            font-size: 9px;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.4);
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+
+    .visit-i-button {
+      width: 229px;
+      height: 60px;
+      border-radius: 16px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+
+      h4 {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+        margin-top: 3px;
+      }
+
+      img {
+        width: 22px;
+        height: 22px;
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+// @mixin hr($hrWidth, $hrBorderSize, $hrColor){
+//     width: $hrWidth;
+//     border: $hrBorderSize solid $hrColor;
+// }
+
+@mixin textmaker($color, $fsize, $fweight){
+    color: $color;
+    font-size: $fsize;
+    font-weight: $fweight;
+}
